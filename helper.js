@@ -10,6 +10,17 @@ const styles = StyleSheet.create({
     color: "#81B29A",
     fontWeight: "bold",
   },
+  navBar: {
+    backgroundColor: "#81B29A",
+    flex: 0.1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  navBarText: {
+    color: "#F4F1DE",
+    fontWeight: "bold",
+    fontSize: 30,
+  },
 });
 
 export { styles };
