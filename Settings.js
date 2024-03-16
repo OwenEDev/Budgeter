@@ -3,10 +3,10 @@ import { Text } from "react-native";
 import { styles } from "./helper";
 import { StatusBar } from "expo-status-bar";
 
-export default function InAndOuts({ navigation }) {
+export default function Settings({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>InAndOuts</Text>
+      <Text style={styles.title}>Settings</Text>
     </View>
   );
 }

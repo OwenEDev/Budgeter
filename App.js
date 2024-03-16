@@ -5,6 +5,7 @@ import InAndOuts from "./InAndOuts";
 import { SafeAreaView } from "react-native";
 import { styles } from "./helper";
 import { Text } from "react-native";
+import Settings from "./Settings";
 const Tab = createMaterialTopTabNavigator();
 
 export default function App() {
@@ -23,8 +24,16 @@ export default function App() {
           }}
         />
         <Tab.Screen
-          name="InAndOuts"
+          name="Ins and Outs"
           component={InAndOuts}
+          options={{
+            tabBarStyle: { backgroundColor: "#F4F1DE" },
+            tabBarIndicatorStyle: { backgroundColor: "#E07A5F" },
+          }}
+        />
+        <Tab.Screen
+          name="Settings"
+          component={Settings}
           options={{
             tabBarStyle: { backgroundColor: "#F4F1DE" },
             tabBarIndicatorStyle: { backgroundColor: "#E07A5F" },
