@@ -16,9 +16,7 @@ export default function NumberInput() {
         cursorColor={colourPalette.secondary}
         enterKeyHint="done"
         // onEndEditing={calculate stuff}
-      >
-        hi
-      </TextInput>
+      />
     </SafeAreaView>
   );
 }
