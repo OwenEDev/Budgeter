@@ -1,12 +1,14 @@
-import { Button, View } from "react-native";
+/* eslint-disable react/react-in-jsx-scope */
+import { ScrollView, View } from "react-native";
 import { Text } from "react-native";
 import { styles } from "./helper";
-import { StatusBar } from "expo-status-bar";
 
-export default function Settings({ navigation }) {
+export default function Settings() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Settings</Text>
+    <View style={styles.parentContainer}>
+      <ScrollView contentContainerStyle={styles.container}>
+        <Text style={styles.title}>Settings</Text>
+      </ScrollView>
     </View>
   );
 }

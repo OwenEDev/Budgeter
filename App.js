@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { NavigationContainer } from "@react-navigation/native";
 import Breakdown from "./Breakdown";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";

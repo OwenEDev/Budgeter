@@ -13,7 +13,12 @@ const styles = StyleSheet.create({
     backgroundColor: colourPalette.background,
     alignItems: "center",
     justifyContent: "flex-start",
-    padding: 20,
+    padding: 10,
+  },
+  parentContainer: {
+    flex: 1,
+    backgroundColor: colourPalette.background,
+    alignItems: "center",
   },
   title: {
     color: colourPalette.primary,
@@ -39,6 +44,7 @@ const styles = StyleSheet.create({
     borderColor: colourPalette.secondary,
     padding: 10,
     backgroundColor: colourPalette.accent,
+    minWidth: 100,
   },
 });
 
