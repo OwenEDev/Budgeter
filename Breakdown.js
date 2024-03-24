@@ -4,6 +4,7 @@ import { Text } from "react-native";
 import { styles } from "./helper";
 import NumberInput from "./components/numberInput";
 import { View } from "react-native";
+import WeeklySection from "./components/weeklySection";
 
 export default function Breakdown() {
   return (
@@ -15,7 +16,7 @@ export default function Breakdown() {
         <Text style={styles.title}>Starting Balance</Text>
         <NumberInput />
         <View style={styles.container2}>
-          <Text style={styles.title}>{`Week 1 (date)`}</Text>
+          <WeeklySection title={"Week 1"} />
           <Text style={styles.title}>{`Week 2 (date)`}</Text>
           <Text style={styles.title}>{`Week 3 (date)`}</Text>
         </View>

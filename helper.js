@@ -5,6 +5,7 @@ const colourPalette = {
   secondary: "#F4F1DE",
   accent: "#E07A5F",
   background: "#3D405B",
+  tertiary: "#F2CC8F",
 };
 
 const styles = StyleSheet.create({
@@ -32,6 +33,12 @@ const styles = StyleSheet.create({
     color: colourPalette.primary,
     fontWeight: "bold",
     fontSize: 20,
+  },
+  subTitle: {
+    color: colourPalette.tertiary,
+    fontWeight: "bold",
+    fontSize: 18,
+    paddingTop: 5,
   },
   navBar: {
     backgroundColor: colourPalette.primary,
