@@ -8,9 +8,17 @@ import { View } from "react-native";
 export default function Breakdown() {
   return (
     <View style={styles.parentContainer}>
-      <ScrollView contentContainerStyle={styles.container}>
+      <ScrollView
+        contentContainerStyle={styles.container}
+        showsHorizontalScrollIndicator={false}
+      >
         <Text style={styles.title}>Starting Balance</Text>
         <NumberInput />
+        <View style={styles.container2}>
+          <Text style={styles.title}>{`Week 1 (date)`}</Text>
+          <Text style={styles.title}>{`Week 2 (date)`}</Text>
+          <Text style={styles.title}>{`Week 3 (date)`}</Text>
+        </View>
       </ScrollView>
     </View>
   );

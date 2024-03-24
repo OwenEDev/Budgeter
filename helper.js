@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Dimensions, StyleSheet } from "react-native";
 
 const colourPalette = {
   primary: "#81B29A",
@@ -19,6 +19,14 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: colourPalette.background,
     alignItems: "center",
+  },
+  container2: {
+    flex: 1,
+    backgroundColor: colourPalette.background,
+    alignItems: "left",
+    justifyContent: "flex-start",
+    padding: 10,
+    width: Dimensions.get("window").width - 20,
   },
   title: {
     color: colourPalette.primary,
